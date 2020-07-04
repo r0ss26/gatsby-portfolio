@@ -1,0 +1,10 @@
+span {
+  font-size: 48px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.leftAlign {
+  justify-self: start;
+  margin-left: 15%;
+}
