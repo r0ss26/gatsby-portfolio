@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Martel, serif;
+  background-color: #f2f3f7;
+}
