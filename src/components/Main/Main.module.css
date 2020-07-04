@@ -1,0 +1,14 @@
+main {
+  min-height: 70vh;
+  min-width: 80vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  @media (max-width: 500px) {
+    min-height: 85vh;
+    min-width: 80vw;
+  }
+}
