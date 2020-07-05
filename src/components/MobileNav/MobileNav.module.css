@@ -1,0 +1,46 @@
+.icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  margin-top: 50px;
+}
+
+.icon img {
+  height: 50px;
+}
+
+@media screen and (min-width: 991.98px) {
+  .icon, .mobileMenu {
+    display: none;
+  }
+}
+
+.mobileMenu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  background-color: #efe;
+  text-align: center;
+}
+
+.mobileMenu > ul {
+  height: 100%;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.mobileMenu img {
+  height: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
