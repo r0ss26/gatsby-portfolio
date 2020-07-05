@@ -16,7 +16,7 @@ const IntroCard = () => {
               .deleteAll()
               .pauseFor(1000)
               .deleteAll()
-              .typeString('Creative.')
+              .typeString('Creator.')
               .pauseFor(1000)
               .deleteAll()
               .typeString('Blogger.')
