@@ -45,3 +45,9 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+@media screen and (max-width: 991.98px) {
+ .homeNav {
+   display: none;
+ }
+}
