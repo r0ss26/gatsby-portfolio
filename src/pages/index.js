@@ -1,6 +1,4 @@
 import React from "react"
-import { css } from '@emotion/core';
-import styled from '@emotion/styled';
 
 import Layout from '../components/Layout/Layout';
 import NeumorphicContainer from "../components/NeumorphicContainer/NeumorphicContainer"
