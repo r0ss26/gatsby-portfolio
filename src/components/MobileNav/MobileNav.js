@@ -18,17 +18,15 @@ const MobileNav = () => {
   return (
     <>
       <div className={styles.icon} onClick={handleClick}><NeumorphicIcon className={styles.icon} imgSrc={menuIcon} /></div>
-      <div className={`${styles.slider}`}>
-        <nav className={`${styles.mobileMenu} + ${navState.isOpen ? '' : styles.hidden}`}>
-          <ul>
-            <li onClick={handleClick}><NeumorphicIcon imgSrc={closeIcon}/></li>
-            <li>HOME</li>
-            <li>BLOG</li>
-            <li>RESUME</li>
-            <li>CONTACT</li>
-          </ul>
-        </nav>
-      </div>
+      <nav className={`${styles.mobileMenu} + ${navState.isOpen ? styles.slideup : styles.slidedown}`}>
+        <ul>
+          <li>HOME</li>
+          <li>BLOG</li>
+          <li>RESUME</li>
+          <li>CONTACT</li>
+          <li onClick={handleClick}><NeumorphicIcon imgSrc={closeIcon}/></li>
+        </ul>
+      </nav>
     </>
   )
 }

@@ -29,7 +29,6 @@ const Main = () => {
           </ViewWork>
         <Nav />
       </main>
-      <MobileNav />
     </>
   )
 }
