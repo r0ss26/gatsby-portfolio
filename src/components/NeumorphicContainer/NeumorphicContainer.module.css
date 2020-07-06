@@ -6,4 +6,13 @@
   justify-items: center;
   align-items: center;
   padding: 30px;
+  min-height: 70vh;
+  width: 80vw;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  ;
 }

@@ -1,4 +1,4 @@
-main {
+.container {
   min-height: 70vh;
   display: grid;
   grid-template-rows: 1fr;
@@ -7,8 +7,27 @@ main {
   align-items: center;
 }
 
+.tech {
+  text-align: center;
+  padding: 50px;
+}
+
+.about {
+  text-align: center;
+}
+
+.image {
+  width: 60%;
+}
+
+.aboutTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(26, 188, 156);
+}
+
 @media screen and (max-width: 991.98px) {
-  main {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

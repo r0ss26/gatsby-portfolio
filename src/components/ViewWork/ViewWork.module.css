@@ -5,8 +5,8 @@
   font-size: 30px;
   width: 50%;
   margin-bottom: 50px;
+  outline: none;
 }
-
 .button:hover {
   color: white;
   background-color: rgb(26, 188, 156);

@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './Layout.module.css';
-import MobileNav from '../MobileNav/MobileNav';
+import React from "react"
+import styles from "./Layout.module.css"
+import MobileNav from "../MobileNav/MobileNav"
 
 const Layout = ({ children }) => {
   return (
@@ -9,6 +9,6 @@ const Layout = ({ children }) => {
       <MobileNav />
     </div>
   )
-};
+}
 
-export default Layout;
+export default Layout

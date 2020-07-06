@@ -1,15 +1,15 @@
 import React from 'react'
-
+import { Link } from 'gatsby';
 import styles from './Nav.module.css';
 
 const Nav = () => {
   return (
     <nav className={styles.homeNav}>
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#" target="_blank">Resume</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><Link to="/about" >About</Link></li>
+        <li><Link to="/contact" >Contact</Link></li>
+        <li><Link to="#" >Resume</Link></li>
+        <li><Link to="/blog" >Blog</Link></li>
       </ul>
     </nav>
   )

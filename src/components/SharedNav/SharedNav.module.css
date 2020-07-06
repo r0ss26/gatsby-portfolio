@@ -1,0 +1,48 @@
+.navbar {
+  position: relative;
+  width: 100%;
+  top: 2vh;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+}
+
+.navbar li {
+  border-bottom: 2px solid #fff;
+  padding: 0 20px;
+  display: inline;
+}
+
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li:hover {
+  border-bottom: 2px solid rgb(26, 188, 156);
+  color: rgb(26, 188, 156);
+  position: relative;
+  animation-name: slide-up;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .navbar {
+    display: none;
+  }
+}
