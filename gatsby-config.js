@@ -8,11 +8,12 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`
       }
-    }
+    },
   ],
 }
