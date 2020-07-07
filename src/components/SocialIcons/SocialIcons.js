@@ -16,7 +16,6 @@ const SocialIcons = () => {
         imgSrc={githubIcon}
         altText="GitHub Logo"
         linkUrl="https://github.com/r0ss26"
-        altText="GitHub Link"
       />
       <NeumorphicIcon
         tooltip

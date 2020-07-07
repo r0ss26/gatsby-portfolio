@@ -12,7 +12,7 @@ const TopNavBar = () => {
         <li><Link to="/about" >About</Link></li>
         <li><Link to="/contact" >Contact</Link></li>
         <li><a href={resume} target="__blank" >Resume</a></li>
-        <li><Link to="/blog" >Blog</Link></li>
+        <li><a href="https://medium.com/@rossabaker">Blog</a></li>
       </ul>
     </nav>
   )

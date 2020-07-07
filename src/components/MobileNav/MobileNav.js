@@ -38,7 +38,7 @@ const MobileNav = () => {
             <a href={resume} target="__blank" >Resume</a>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <a href="https://medium.com/@rossabaker">Blog</a>
           </li>
           <li>
             <button name="Mobile Navigation Menu" onClick={handleClick}>
