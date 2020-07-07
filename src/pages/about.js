@@ -1,14 +1,11 @@
 import React from "react"
 import NeumorphicContainer from "../components/NeumorphicContainer/NeumorphicContainer"
-import NeumorphicIcon from "../components/NeumorphicIcon/NeumorphicIcon"
 import Layout from "../components/Layout/Layout"
-import AboutContent from "../components/About/About.js"
-import SharedNav from "../components/SharedNav/SharedNav"
+import AboutContent from "../components/AboutContent/AboutContent.js"
 
 const About = () => {
   return (
-    <Layout>
-      <SharedNav />
+    <Layout topNav>
       <NeumorphicContainer>
         <AboutContent />
       </NeumorphicContainer>

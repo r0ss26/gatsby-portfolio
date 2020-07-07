@@ -1,0 +1,27 @@
+.container {
+  min-height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  min-height: 70vh;
+  width: 80vw;
+}
+
+
+.image {
+  width: 60%;
+}
+
+
+
+@media screen and (max-width: 991.98px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height: 90vh;
+  }
+}
