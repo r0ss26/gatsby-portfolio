@@ -4,6 +4,7 @@ import menuIcon from "../../assets/icons/icons8-menu.svg"
 import styles from "./MobileNav.module.css"
 import { Link } from "gatsby"
 
+import resume from '../../assets/docs/RossBaker-Resume.pdf'
 import closeIcon from "../../assets/icons/icons8-multiply-100.png"
 
 const MobileNav = () => {
