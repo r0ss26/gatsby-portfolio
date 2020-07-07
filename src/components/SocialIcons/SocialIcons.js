@@ -1,5 +1,5 @@
-import React from 'react'
-import NeumorphicIcon from '../NeumorphicIcon/NeumorphicIcon'
+import React from "react"
+import NeumorphicIcon from "../NeumorphicIcon/NeumorphicIcon"
 
 import emailIcon from "../../assets/icons/social/icons8-email-sign-100.png"
 import githubIcon from "../../assets/icons/social/icons8-github.svg"

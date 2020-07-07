@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './TechIcons.module.css'
-import NeumorphicIcon from '../NeumorphicIcon/NeumorphicIcon'
+import React from "react"
+import styles from "./TechIcons.module.css"
+import NeumorphicIcon from "../NeumorphicIcon/NeumorphicIcon"
 
 import htmlIcon from "../../assets/icons/tech/icons8-html-5.svg"
 import cssIcon from "../../assets/icons/tech/icons8-css3.svg"

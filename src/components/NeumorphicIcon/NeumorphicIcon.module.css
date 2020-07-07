@@ -12,7 +12,7 @@
   padding: 8px;
   margin: 5px;
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
-              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+    12px 12px 12px 0 rgba(224, 228, 239, 0.5);
   background: linear-gradient(135deg, #eee, white);
   background-color: #eee;
 }

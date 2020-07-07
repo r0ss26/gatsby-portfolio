@@ -9,12 +9,9 @@
   width: 80vw;
 }
 
-
 .image {
   width: 60%;
 }
-
-
 
 @media screen and (max-width: 991.98px) {
   .container {

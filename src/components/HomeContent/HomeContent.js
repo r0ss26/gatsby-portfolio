@@ -4,9 +4,7 @@ import ViewWork from "../ViewWork/ViewWork"
 import styles from "./HomeContent.module.css"
 
 import Nav from "../Nav/Nav"
-import SocialIcons from '../SocialIcons/SocialIcons'
-
-
+import SocialIcons from "../SocialIcons/SocialIcons"
 
 const HomeContent = () => {
   return (

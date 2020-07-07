@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './AboutText.module.css';
+import React from "react"
+import styles from "./AboutText.module.css"
 
 const AboutText = () => {
   return (
@@ -8,13 +8,12 @@ const AboutText = () => {
       <div>
         <p>
           I am a software developer in the process of completing a coding
-          bootcamp (Diploma of Information Technology) at Coder Academy
-          Sydney, Australia.
+          bootcamp (Diploma of Information Technology) at Coder Academy Sydney,
+          Australia.
         </p>
         <p>
-          I enjoy using code to build solutions, solve problems and be
-          creative. Utilising whichever language, stack or framework is best
-          for the job.
+          I enjoy using code to build solutions, solve problems and be creative.
+          Utilising whichever language, stack or framework is best for the job.
         </p>
       </div>
     </div>

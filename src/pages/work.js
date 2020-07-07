@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '../components/Layout/Layout'
-import WorkContent from '../components/WorkContent/WorkContent'
+import React from "react"
+import Layout from "../components/Layout/Layout"
+import WorkContent from "../components/WorkContent/WorkContent"
 
 const Work = () => {
   return (

@@ -4,7 +4,7 @@ import menuIcon from "../../assets/icons/icons8-menu.svg"
 import styles from "./MobileNav.module.css"
 import { Link } from "gatsby"
 
-import resume from '../../assets/docs/RossBaker-Resume.pdf'
+import resume from "../../assets/docs/RossBaker-Resume.pdf"
 import closeIcon from "../../assets/icons/icons8-multiply-100.png"
 
 const MobileNav = () => {
@@ -17,7 +17,11 @@ const MobileNav = () => {
   return (
     <>
       <button className={styles.icon} onClick={handleClick}>
-        <NeumorphicIcon altText="Open Navigation Menu" className={styles.icon} imgSrc={menuIcon} />
+        <NeumorphicIcon
+          altText="Open Navigation Menu"
+          className={styles.icon}
+          imgSrc={menuIcon}
+        />
       </button>
       <nav
         className={`${styles.mobileMenu} + ${
@@ -35,14 +39,19 @@ const MobileNav = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a href={resume} target="__blank" >Resume</a>
+            <a href={resume} target="__blank">
+              Resume
+            </a>
           </li>
           <li>
             <a href="https://medium.com/@rossabaker">Blog</a>
           </li>
           <li>
             <button name="Mobile Navigation Menu" onClick={handleClick}>
-                <NeumorphicIcon altText="Close Navigation Menu" imgSrc={closeIcon} />
+              <NeumorphicIcon
+                altText="Close Navigation Menu"
+                imgSrc={closeIcon}
+              />
             </button>
           </li>
         </ul>
