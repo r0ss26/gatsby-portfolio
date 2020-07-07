@@ -14,6 +14,20 @@
   transition: 1s;
 }
 
+.button:hover a {
+  color:white;
+  transition: 1s;
+}
+
 .container {
   text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button a:hover {
+  color: white;
 }

@@ -11,19 +11,18 @@ const IntroCard = () => {
       <br />
       <span>
         <Typewriter
-          options={{ loop: true, delay: 100 }}
+          options={{ delay: 100 }}
           onInit={typewriter => {
             typewriter
               .start()
-              .typeString("Developer.")
-              .deleteAll()
-              .pauseFor(1000)
-              .deleteAll()
               .typeString("Creator.")
+              .deleteAll()
               .pauseFor(1000)
               .deleteAll()
               .typeString("Blogger.")
               .pauseFor(1000)
+              .deleteAll()
+              .typeString("Developer.")
           }}
         />
       </span>

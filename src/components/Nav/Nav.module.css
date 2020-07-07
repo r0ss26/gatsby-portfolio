@@ -4,13 +4,11 @@
 }
 
 .homeNav li {
-  font-family: Martel, serif;
   border-bottom: 1px solid rgb(26, 188, 156);
   padding: 6px;
   margin: 5px;
   background: linear-gradient(to bottom, white 50%, rgb(26, 188, 156) 50%);
   background-size: 100% 200%;
-  /* background-position: top; */
 }
 
 .homeNav li:hover {
