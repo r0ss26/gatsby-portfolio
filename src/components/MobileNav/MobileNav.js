@@ -25,13 +25,16 @@ const MobileNav = () => {
       >
         <ul>
           <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
             <Link to="/about">About</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="#">Resume</Link>
+            <a href={resume} target="__blank" >Resume</a>
           </li>
           <li>
             <Link to="/blog">Blog</Link>
