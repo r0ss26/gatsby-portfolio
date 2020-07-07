@@ -54,6 +54,7 @@
 
 .mobileMenu a {
   color: black;
+  display: block;
 }
 
 .mobileMenu img {
