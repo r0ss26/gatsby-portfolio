@@ -13,12 +13,12 @@
 
 .navbar li {
   border-bottom: 2px solid #fff;
-  padding: 0 20px;
   display: inline;
 }
 
 .navbar a {
   display: block;
+  padding: 0 20px;
   text-decoration: none;
   color: black;
 }

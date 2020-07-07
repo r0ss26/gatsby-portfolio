@@ -15,9 +15,9 @@ const MobileNav = () => {
 
   return (
     <>
-      <div className={styles.icon} onClick={handleClick}>
-        <NeumorphicIcon className={styles.icon} imgSrc={menuIcon} />
-      </div>
+      <button className={styles.icon} onClick={handleClick}>
+        <NeumorphicIcon altText="Open Navigation Menu" className={styles.icon} imgSrc={menuIcon} />
+      </button>
       <nav
         className={`${styles.mobileMenu} + ${
           navState.isOpen ? styles.slideup : styles.slidedown
@@ -36,8 +36,10 @@ const MobileNav = () => {
           <li>
             <Link to="/blog">Blog</Link>
           </li>
-          <li onClick={handleClick}>
-            <NeumorphicIcon imgSrc={closeIcon} />
+          <li>
+            <button name="Mobile Navigation Menu" onClick={handleClick}>
+                <NeumorphicIcon altText="Close Navigation Menu" imgSrc={closeIcon} />
+            </button>
           </li>
         </ul>
       </nav>
