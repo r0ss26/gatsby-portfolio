@@ -19,9 +19,12 @@ const ProjectCard = props => {
             <div className={styles.title}>{props.title}</div>
             <p className={styles.description}>{props.description}</p>
           </div>
-          <div>
-            <img alt="" className={styles.projectImg} src={props.imgSrc} />
-          </div>
+          <a href={props.demoSrc} target="__blank" className={styles.projectImg}>
+            <img className={styles.image} alt="" src={props.imgSrc} />
+            <div className={styles.overlay}>
+              <div className={styles.text}>DEMO</div>
+            </div>
+          </a>
         </div>
       </NeumorphicContainer>
     </div>
