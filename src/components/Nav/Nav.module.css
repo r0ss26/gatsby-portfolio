@@ -11,6 +11,10 @@
   background-size: 100% 200%;
 }
 
+.homeNav a {
+  font-weight: 200;
+}
+
 .homeNav li:hover {
   color: white;
   cursor: pointer;

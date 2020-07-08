@@ -1,5 +1,7 @@
 import React from "react"
 import NeumorphicContainer from "../NeumorphicContainer/NeumorphicContainer"
+import Tag from "../Tag/Tag"
+
 import styles from "./ProjectCard.module.css"
 
 const ProjectCard = props => {
@@ -8,12 +10,18 @@ const ProjectCard = props => {
       <NeumorphicContainer>
         <div className={styles.content}>
           <div>
-            <a href={props.codeSrc} target="_bank">
+            <a href={props.codeSrc} target="__blank">
               <button className={styles.button}>CODE &lt; /&gt;</button>
             </a>
-            <a href={props.demoSrc} target="_bank">
+            <a href={props.demoSrc} target="__blank">
               <button className={styles.fill}>SITE</button>
             </a>
+            {props.tags && (
+              <div className={styles.tagsContainer}>
+                {props.tags.split(', ').map((tag) => (
+                  <Tag tagName={tag} />
+                ))}
+              </div>)}
           </div>
           <div>
             <div className={styles.title}>{props.title}</div>

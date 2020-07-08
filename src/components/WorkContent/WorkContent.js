@@ -21,6 +21,7 @@ const WorkContent = () => {
         imgSrc={codeFlowImg}
         codeSrc="https://github.com/r0ss26/code-flow"
         demoSrc="https://codeflow-marketplace.herokuapp.com/"
+        tags="Ruby on Rails, Bulma, PostgreSQL, Heroku"
       />
       <ProjectCard
         title="Portfolio"
@@ -29,6 +30,7 @@ const WorkContent = () => {
         imgSrc={portfolioImg}
         codeSrc="https://github.com/r0ss26/gatsby-portfolio"
         demoSrc="https://r0ss26.github.io/"
+        tags="React, Gatsby, JavaScript, Netlify"
       />
       <ProjectCard
         title="Number of The Day"
@@ -38,6 +40,7 @@ const WorkContent = () => {
         codeSrc="https://github.com/r0ss26/number-of-the-day"
         demoSrc="https://r0ss26.github.io/number-of-the-day/"
         imgSrc={numberOfTheDayImg}
+        tags="JavaScript, HTML5, CSS3, API, GitHub Pages"
       />
       <ProjectCard
         title="Book Reviews"
@@ -46,6 +49,7 @@ const WorkContent = () => {
         codeSrc="https://github.com/r0ss26/BookReviews"
         demoSrc="https://bookrvw.herokuapp.com/"
         imgSrc={bookReviewImg}
+        tags="Python, Flask, API, Heroku"
       />
     </main>
   )

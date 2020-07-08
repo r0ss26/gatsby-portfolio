@@ -16,7 +16,6 @@ const IntroCard = () => {
             typewriter
               .start()
               .typeString("Creator.")
-              .deleteAll()
               .pauseFor(1000)
               .deleteAll()
               .typeString("Blogger.")

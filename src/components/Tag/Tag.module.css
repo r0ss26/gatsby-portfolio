@@ -1,0 +1,10 @@
+.tag {
+  margin: 0px 5px;
+  font-size: 0.6em;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: inset -20px 20px 60px #f2f3f7, 
+              inset 20px -20px 60px #fff;
+  display: inline-block;
+}
