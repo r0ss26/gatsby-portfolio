@@ -12,7 +12,7 @@ const ProjectCard = props => {
               <button className={styles.button}>CODE &lt; /&gt;</button>
             </a>
             <a href={props.demoSrc} target="_bank">
-              <button className={styles.button}>SITE</button>
+              <button className={styles.fill}>SITE</button>
             </a>
           </div>
           <div>
