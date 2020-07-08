@@ -27,6 +27,7 @@ const WorkContent = () => {
         description="My software development portfolio site and blog. Built with custom
         React components, utilising the Gatsby framework."
         imgSrc={portfolioImg}
+        codeSrc="https://github.com/r0ss26/gatsby-portfolio"
         demoSrc="https://r0ss26.github.io/"
       />
       <ProjectCard
