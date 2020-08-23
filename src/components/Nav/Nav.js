@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./Nav.module.css"
+import resume from '../../assets/docs/RossBaker-Resume.pdf'
 
 const Nav = () => {
   return (
