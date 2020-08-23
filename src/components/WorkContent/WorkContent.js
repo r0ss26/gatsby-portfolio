@@ -6,11 +6,23 @@ import codeFlowImg from "../../assets/projects/img/codeflow.png"
 import portfolioImg from "../../assets/projects/img/portfolio.png"
 import numberOfTheDayImg from "../../assets/projects/img/nod.png"
 import bookReviewImg from "../../assets/projects/img/books.png"
+import expenselyImage from '../../assets/projects/img/expensely.png'
 
 const WorkContent = () => {
   return (
     <main className={styles.container}>
       <h2 className={styles.title}>Software Projects</h2>
+      <ProjectCard
+        title="Expensely"
+        description="Expensely provides a straight forward and intuitive 
+        interface for tracking expenses to help our users stay under budget 
+        and reach their savings goals.
+        "
+        imgSrc={expenselyImage}
+        codeSrc="https://github.com/r0ss26/expensely-frontend/"
+        demoSrc="https://www.expensely.tech/"
+        tags="Express, MongoDB, React, Netlify"
+      />
       <ProjectCard
         title="CodeFlow"
         description="Full-stack Ruby On Rails Web Application to
