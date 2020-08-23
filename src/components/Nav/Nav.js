@@ -13,7 +13,9 @@ const Nav = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="#">Resume</Link>
+          <a href={resume} target="__blank">
+            Resume
+          </a>
         </li>
         <li>
           <a href="https://medium.com/@rossabaker">Blog</a>
