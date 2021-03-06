@@ -4,20 +4,23 @@ import styles from "./TopNavBar.module.css"
 import resume from "../../assets/docs/RossBaker-Resume.pdf"
 
 const TopNavBar = () => {
+
+  const activeStyle = { color: 'rgb(26, 188, 156)'}
+
   return (
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" activeStyle={activeStyle}>Home</Link>
         </li>
         <li>
-          <Link to="/work">Work</Link>
+          <Link to="/work" activeStyle={activeStyle}>Work</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" activeStyle={activeStyle}>About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" activeStyle={activeStyle}>Contact</Link>
         </li>
         <li>
           <a href={resume} target="__blank">
