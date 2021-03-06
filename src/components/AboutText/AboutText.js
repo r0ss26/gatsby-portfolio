@@ -7,9 +7,11 @@ const AboutText = () => {
       <div className={styles.aboutTitle}>A bit about me...</div>
       <div>
         <p>
-          I am a software developer in the process of completing a coding
-          bootcamp (Diploma of Information Technology) at Coder Academy Sydney,
-          Australia.
+          I am a software developer based in Sydney, 
+          Australia with industry experience building 
+          innovative full-stack web applications, specialising 
+          in JavaScript. I have a passion for solving interesting
+          problems with code.
         </p>
         <p>
           I enjoy using code to build solutions, solve problems and be creative.
