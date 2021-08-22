@@ -15,7 +15,7 @@ const Layout = ({ topNav, children }) => {
           content="View Ross Baker's software development portfolio. Ross Baker is
         a web developer utilisng JavaScript, React, Ruby on Rails, HTML5, CSS3 and other technologies."
         />
-        <meta property="og:image" content={typeof window === 'object' ? `${window.location.href}/featured_image.png` : 'https://www.rossbaker.me/featured_image.png'} /> 
+        <meta property="og:image" content={typeof window === 'object' ? `${window.location.href}featured_image.png` : 'https://www.rossbaker.me/featured_image.png'} /> 
         <meta property="og:image:width" content="300" /> 
         <meta property="og:image:height" content="300" /> 
         <html lang="en" />
