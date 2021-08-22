@@ -9,8 +9,8 @@ const AboutText = () => {
         <p>
           I am a software developer based in Sydney, 
           Australia with industry experience building 
-          innovative full-stack web applications, specialising 
-          in JavaScript. I have a passion for solving interesting
+          innovative full-stack web applications. I have 
+          a passion for solving interesting
           problems with code.
         </p>
         <p>
