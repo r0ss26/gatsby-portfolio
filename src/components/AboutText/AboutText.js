@@ -7,9 +7,9 @@ const AboutText = () => {
       <div className={styles.aboutTitle}>A bit about me...</div>
       <div>
         <p>
-          I am a software developer based in Sydney, 
-          Australia with industry experience building 
-          innovative full-stack web applications. I have 
+          I am a software engineer based in Sydney,
+          Australia with industry experience building
+          innovative full-stack web applications. I have
           a passion for solving interesting
           problems with code.
         </p>
