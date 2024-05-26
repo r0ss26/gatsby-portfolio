@@ -8,3 +8,9 @@
   font-size: 1.5em;
   color: rgb(26, 188, 156);
 }
+
+@media screen and (max-width: 991.98px) {
+  .aboutTitle{
+    margin-bottom: 1.5rem;
+  }
+}
