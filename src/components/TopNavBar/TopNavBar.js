@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./TopNavBar.module.css"
-import resume from "../../assets/docs/RossBaker-Resume.pdf"
 
 const TopNavBar = () => {
 
@@ -12,9 +11,6 @@ const TopNavBar = () => {
       <ul>
         <li>
           <Link to="/" activeStyle={activeStyle}>Home</Link>
-        </li>
-        <li>
-          <Link to="/work" activeStyle={activeStyle}>Work</Link>
         </li>
         <li>
           <Link to="/about" activeStyle={activeStyle}>About</Link>
