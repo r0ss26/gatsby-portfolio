@@ -14,8 +14,8 @@ const WorkContent = () => {
       <h2 className={styles.title}>Software Projects</h2>
       <ProjectCard
         title="Expensely"
-        description="Expensely provides a straight forward and intuitive 
-        interface for tracking expenses to help our users stay under budget 
+        description="Expensely provides a straight forward and intuitive
+        interface for tracking expenses to help our users stay under budget
         and reach their savings goals.
         "
         imgSrc={expenselyImage}
@@ -45,18 +45,8 @@ const WorkContent = () => {
         tags="React, Gatsby, JavaScript, Netlify"
       />
       <ProjectCard
-        title="Number of The Day"
-        description="An app that queries the https://math.tools utilsing the fetch API in order to display
-        facts about the number of the day. Implements conversions for displaying different
-        number systems, as well as a trivia game. "
-        codeSrc="https://github.com/r0ss26/number-of-the-day"
-        demoSrc="https://r0ss26.github.io/number-of-the-day/"
-        imgSrc={numberOfTheDayImg}
-        tags="JavaScript, HTML5, CSS3, API, GitHub Pages"
-      />
-      <ProjectCard
         title="Book Reviews"
-        description="Search, rate and review books. Incorporates the GoodReads API to display 
+        description="Search, rate and review books. Incorporates the GoodReads API to display
         ratings from a wider audience. An API allows users to query for statistics."
         codeSrc="https://github.com/r0ss26/BookReviews"
         demoSrc="https://bookrvw.herokuapp.com/"

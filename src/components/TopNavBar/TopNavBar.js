@@ -19,17 +19,6 @@ const TopNavBar = () => {
         <li>
           <Link to="/about" activeStyle={activeStyle}>About</Link>
         </li>
-        <li>
-          <Link to="/contact" activeStyle={activeStyle}>Contact</Link>
-        </li>
-        <li>
-          <a href={resume} target="__blank">
-            Resume
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@rossabaker">Blog</a>
-        </li>
       </ul>
     </nav>
   )

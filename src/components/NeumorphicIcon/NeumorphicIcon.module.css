@@ -1,20 +1,27 @@
-.icon {
+.iconContainer {
   position: relative;
-}
-
-.icon a {
-  text-decoration: none;
-}
-
-.icon img {
   height: 80px;
+  width: 80px;
   border-radius: 50%;
   padding: 8px;
   margin: 5px;
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
     12px 12px 12px 0 rgba(224, 228, 239, 0.5);
-  background: linear-gradient(135deg, #eee, white);
-  background-color: #eee;
+  background: #eee linear-gradient(135deg, #eee, white);
+  display: inline-block;
+}
+
+.icon a {
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  max-height: 50px;
+  margin-bottom: 0;
 }
 
 .icon img:hover {
@@ -33,11 +40,11 @@
   }
 
   50% {
-    transform: scale(1.3);
+    transform: scale(1.1);
   }
 
   to {
-    transform: scale(1.2);
+    transform: scale(1);
   }
 }
 
@@ -55,13 +62,15 @@
   top: 100%;
   right: 0;
   left: 0;
-  font-size: 20px;
+  font-size: 16px;
   min-width: fit-content;
+  z-index: 2;
 }
 
-.icon:hover .tooltip {
+.iconContainer:hover .tooltip {
   visibility: visible;
   opacity: 1;
   transition: 1.5s;
   z-index: 2;
+  animation: none;
 }
