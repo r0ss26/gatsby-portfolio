@@ -31,3 +31,9 @@
 .button a:hover {
   color: white;
 }
+
+.button img {
+  margin: auto auto auto 10px;
+  height: 20px;
+  color: gray;
+}
